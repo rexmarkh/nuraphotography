@@ -2173,3 +2173,102 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 	top: 0;
 	left: -2400px;
 }
+
+/*Custom Styles*/
+
+.custom-row{
+  margin: 0 !important;
+}
+.nav-dropdown-sm.collapsing, .nav-dropdown-sm.collapse.in{
+  border-right: 1px solid #ccc;
+}
+.logo .logo_txt{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+/*Nav correction css*/
+.navbar-dropdown,
+.navbar-dropdown.bg-color.transparent{
+  background-color: #fff !important;
+}
+.navbar-dropdown .navbar-caption,
+#menu-9 .navbar-toggler{
+  color: #282828 !important;
+}
+
+
+
+/*Media Queries*/
+@media only screen and (max-width : 768px) {
+/* Styles */
+
+.myNav{
+  display: none;
+}
+.navbar {
+  display: block;
+}
+.mySlider{
+  padding: 0 0 !important;
+}
+}
+
+
+@media only screen and (min-width : 769px) {
+/* Styles */
+
+.myNav{
+  display: block;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+.myNav ul{
+  padding-top: 30px;
+  padding-left: 0;
+}
+.myNav ul li{
+  list-style-type: none;
+  color: teal;
+  font-weight: 200;
+  padding-top: 5px;
+  text-align: center;
+}
+.myNav ul li:first-child a{
+}
+.myNav ul li:nth-child(2) a{
+ font-size: 30px;
+ text-transform: capitalize;
+}
+.myNav ul li:nth-child(3) a{
+  font-size: 18px;
+}
+.myNav ul li:nth-child(4) a{
+  font-size: 20px;
+}
+.myNav ul li a{
+  color: #C7A95E;
+  font-weight: bold;
+}
+.myNav ul li a:hover {
+  color: teal;
+  text-decoration:none;
+}
+.navbar {
+  display: none;
+}
+.mySlider{
+  padding: 0 !important;
+  float: right; 
+}
+.logo {
+  text-align: center;
+}
+.logo img{
+  width: 70%;
+  padding-top: 20px;
+}
+}
