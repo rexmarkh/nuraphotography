@@ -2191,12 +2191,12 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 .navbar-dropdown,
 .navbar-dropdown.bg-color.transparent{
   background-color: #fff !important;
+  border-bottom: 1px solid #ccc;
 }
 .navbar-dropdown .navbar-caption,
 #menu-9 .navbar-toggler{
   color: #282828 !important;
 }
-
 
 
 /*Media Queries*/
@@ -2211,6 +2211,9 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 }
 .mySlider{
   padding: 0 0 !important;
+}
+.mySlider>section{
+  padding-top: 70px;
 }
 }
 
@@ -2240,7 +2243,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 .myNav ul li:first-child a{
 }
 .myNav ul li:nth-child(2) a{
- font-size: 30px;
+ font-size: 26px;
  text-transform: capitalize;
 }
 .myNav ul li:nth-child(3) a{
@@ -2252,10 +2255,14 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 .myNav ul li a{
   color: #C7A95E;
   font-weight: bold;
+  transition-property: all;
+  transition-duration: 0.2s;
 }
 .myNav ul li a:hover {
-  color: teal;
+  /*color: black;*/
   text-decoration:none;
+  font-size: 30px;
+  border-bottom: 2px solid #
 }
 .navbar {
   display: none;
